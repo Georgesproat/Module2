@@ -1,16 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Page</title>
   </head>
   <body>
+    <form method="POST" action="http://localhost:3000/profile">
+      <div>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required />
+      </div>
+      <div>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required />
+      </div>
+      <div>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+      </div>
+      <div>
+        <label for="hobbies">Hobbies:</label>
+        <input type="checkbox" id="hobby1" name="hobbies" value="reading" />
+        <label for="hobby1">Reading</label>
+        <input type="checkbox" id="hobby2" name="hobbies" value="swimming" />
+        <label for="hobby2">Swimming</label>
+      </div>
+      <div>
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+          <option value="USA">USA</option>
+          <option value="UK">UK</option>
+          <option value="Canada">Canada</option>
+          <option value="Australia">Australia</option>
+        </select>
+      </div>
+      <button type="submit">Submit form</button>
+    </form>
     <header>
       <nav>
         <!-- works like <a href="/index.html">Home</a> -->
         <a href="/">Home</a>
       </nav>
     </header>
-    <main>
-    </main>
+    <main></main>
     <footer>Copyright 2021 &copy;</footer>
   </body>
 </html>

@@ -1,16 +1,126 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Module 2 Lab 1." />
+    <meta name="keywords" content="This is lab practise" />
+    <meta name="author" content="George Sproat" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Lab page</title>
+    <link rel="stylesheet" href="stylesheet.css" />
   </head>
   <body>
+    <!-- Page headline -->
+    <h1>My HTML Learning Journey</h1>
+
+    <article>
+      <!-- Article headline -->
+      <h2>Learning Elements - div, span, p, pre, ul, li, ol, article</h2>
+
+      <!-- Div elements -->
+      <div>avocado</div>
+      <div>kiwi</div>
+      <div>banana</div>
+
+      <!-- Span elements -->
+      <span>This is a span with some content.</span>
+      <span>This is another span with different content.</span>
+      <span>And here is a third span with unique content.</span>
+      <!-- Paragraph -->
+      <p>p represents paragraph</p>
+
+      <!-- Preformatted text -->
+      <pre>
+  Text in         a pre element
+  is displayed in a fixed-width
+  font, and it preserves
+  both      spaces and
+  line breaks
+</pre
+      >
+
+      <!-- Unordered list -->
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+
+      <!-- Ordered list -->
+      <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+      </ol>
+    </article>
+    <article>
+      <h2>HTML Table Example</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>First header</th>
+            <th>Second header</th>
+            <th colspan="2">Third header (spanning two columns)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>First cell - first row</td>
+            <td>Second cell - first row</td>
+            <td>Third cell - first row</td>
+            <td>Fourth cell - first row</td>
+          </tr>
+          <tr>
+            <td>First cell - second row</td>
+            <td>Second cell - second row</td>
+            <td rowspan="2">Spanning two rows</td>
+          </tr>
+          <tr>
+            <td>First cell - third row</td>
+            <td>Second cell - third row</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+    <!-- Image -->
+    <img src="https://picsum.photos/200/300" alt="" />
+
+    <!-- Video -->
+    <video controls width="250">
+      <source src="/media/cc0-videos/flower.webm" type="video/webm" />
+      <source src="/media/cc0-videos/flower.mp4" type="video/mp4" />
+      Sorry, your browser doesn't support embedded videos.
+    </video>
+
+    <!-- Audio -->
+    <audio controls src="/media/cc0-audio/t-rex-roar.mp3">
+      Your browser does not support the <code>audio</code> element.
+    </audio>
+
+    <!-- Removing controls and adding autoplay attributes -->
+    <!-- Video without controls and with autoplay -->
+    <video autoplay width="250">
+      <source src="/media/cc0-videos/flower.webm" type="video/webm" />
+      <source src="/media/cc0-videos/flower.mp4" type="video/mp4" />
+      Sorry, your browser doesn't support embedded videos.
+    </video>
+
+    <!-- Audio without controls and with autoplay -->
+    <audio autoplay src="/media/cc0-audio/t-rex-roar.mp3">
+      Your browser does not support the <code>audio</code> element.
+    </audio>
     <header>
       <nav>
-        <!-- works like <a href="/index.html">Home</a> -->
         <a href="/">Home</a>
+        <a href="/form">Form</a>
       </nav>
+
+      <h1>Welcome to the Home Page</h1>
+      <!-- Your content goes here -->
+      <!-- works like <a href="/index.html">Home</a> -->
+      <a href="/">Home</a>
     </header>
-    <main>
-    </main>
+    <main></main>
     <footer>Copyright 2021 &copy;</footer>
   </body>
 </html>
