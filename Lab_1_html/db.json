@@ -14,13 +14,10 @@
     }
   ],
   "profile": {
-    "firstName": "george",
-    "lastName": "sproat",
+    "firstName": "GEORGE",
+    "lastName": "SPROAT",
     "gender": "male",
-    "hobbies": [
-      "Sports",
-      "Film/Tv"
-    ],
+    "hobbies": "Sports",
     "country": "NZ"
   }
 }
