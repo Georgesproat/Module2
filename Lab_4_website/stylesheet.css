@@ -120,7 +120,7 @@ section {
   margin-top: 10px;
   font-size: 1.2rem;
   color: #75c7ec;
-  text-decoration: underlined;
+  text-decoration: underline;
 }
 
 .cast-card p {
@@ -130,25 +130,26 @@ section {
 .barbie-container {
   max-width: 800px;
   margin: 30px auto;
-  background-color: #fff;
+  background-color: #e7187c;
+  
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 8px 8px 8px #f2f19f;
+  box-shadow: 8px 8px 8px 8px #f2f19f;
 }
 
 .barbie-container p {
   font-size: 16px;
   line-height: 1.6;
   margin: 0 0 15px;
-  color: #e7187c;
+  color: #75c7ec;
 }
 
 .director-image {
   float: right;
   width: 400px;
   margin: 0 0 20px 20px;
-  border-radius: 10px 10px 10px;
-  border-color: #f2f19f;
+  border-radius: 10px;
+  border-color: 10px #f2f19f;
 }
 
 .videos-container {
