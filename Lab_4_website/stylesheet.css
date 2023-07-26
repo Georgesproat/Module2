@@ -44,8 +44,10 @@ h6 {
   isolation: isolate;
 }
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Barbie", sans-serif;
+  font-size: 2rem;
   padding: 0;
+  background-color: #f8e1ec;
 }
 
 header {
@@ -118,7 +120,7 @@ section {
 }
 .cast-card h2 {
   margin-top: 10px;
-  font-size: 1.2rem;
+  font-size: 3rem;
   color: #75c7ec;
   text-decoration: underline;
 }
@@ -131,14 +133,14 @@ section {
   max-width: 800px;
   margin: 30px auto;
   background-color: #e7187c;
-  
+
   padding: 20px;
   border-radius: 10px;
   box-shadow: 8px 8px 8px 8px #f2f19f;
 }
 
 .barbie-container p {
-  font-size: 16px;
+  font-size: 2rem;
   line-height: 1.6;
   margin: 0 0 15px;
   color: #75c7ec;
@@ -157,6 +159,7 @@ section {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+
 }
 
 .youtube-video {
@@ -164,6 +167,9 @@ section {
   height: 315px;
   border-radius: 10px;
   box-shadow: 8px 8px 8px 8px #f2f19f;
+  padding: 20px;
+  padding-color: #e7187c
+
 }
 
 footer {
@@ -176,12 +182,12 @@ footer {
 }
 
 footer p {
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .fa {
-  padding: 18px;
-  width: 50px;
+  font-size: 20px;
+  padding: 20px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -204,4 +210,13 @@ footer p {
 .fa-instagram {
   background-color: rgb(193, 53, 132);
   color: white;
+}
+
+@media (max-width: 321) {
+  .cast-card p {
+    font-size: 1rem;
+  }
+  .barbie-container p {
+    font-size: 1rem;
+  }
 }
