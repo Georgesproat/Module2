@@ -157,19 +157,29 @@ section {
 .videos-container {
   display: flex;
   justify-content: center;
-  align-items: flex-start; 
+  align-items: flex-start;
   flex-wrap: wrap;
   gap: 20px;
 }
 
 .youtube-video {
+  flex: 1 0 280px; 
   max-width: 560px; 
   width: 100%; 
-  height: auto; 
+  position: relative; 
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  padding: 20px;
-  background-color: #e7187c; 
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #e7187c;
+  overflow: hidden; 
+}
+
+.youtube-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 footer {
