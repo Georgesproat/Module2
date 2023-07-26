@@ -157,19 +157,19 @@ section {
 .videos-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start; 
   flex-wrap: wrap;
-
+  gap: 20px;
 }
 
 .youtube-video {
-  width: 560px;
-  height: 315px;
+  max-width: 560px; 
+  width: 100%; 
+  height: auto; 
   border-radius: 10px;
-  box-shadow: 8px 8px 8px 8px #f2f19f;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   padding: 20px;
-  padding-color: #e7187c
-
+  background-color: #e7187c; 
 }
 
 footer {
